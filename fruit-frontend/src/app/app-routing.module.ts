@@ -9,7 +9,7 @@ import { ContactUsComponent } from './contactus/contact-us.component';
 import { CartComponent } from './cart/cart.component';
 import { AdminComponent } from './admin/admin.component';
 import { AddComponent } from './admin/add/add.component';
-
+import { AboutusComponent } from './aboutus/aboutus.component';
 const routes: Routes = [
   { path: 'sidenav', component: SidenavComponent },
   { path: 'home', component: HomeComponent },
@@ -20,6 +20,7 @@ const routes: Routes = [
   { path: 'contactus', component: ContactUsComponent },
   { path: 'admin', component: AdminComponent },
   { path: 'admin/add', component: AddComponent },
+  { path: 'aboutus', component: AboutusComponent },
   { path: '', redirectTo: 'login', pathMatch: 'full' },
 ];
 

@@ -15,6 +15,7 @@ import { LoginComponent } from './login/login.component';
 import { CartComponent } from './cart/cart.component';
 import { AdminComponent } from './admin/admin.component';
 import { AddComponent } from './admin/add/add.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AddComponent } from './admin/add/add.component';
     LoginComponent,
     CartComponent,
     AdminComponent,
-    AddComponent
+    AddComponent,
+    AboutusComponent,
   ],
   imports: [
     BrowserModule,

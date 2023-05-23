@@ -1,7 +1,5 @@
 package com.fruitapp.backend.dto;
 
-import java.util.List;
-
 import com.fruitapp.backend.model.Product;
 
 import lombok.Getter;
